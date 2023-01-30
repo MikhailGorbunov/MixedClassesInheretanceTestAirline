@@ -7,7 +7,7 @@ public class Passenger extends Person {
     private String flightNumber;
     private int seatNumber;
 
-    public Passenger(String name, int bags, String flightNumber, int seatNumber) {
+    public Passenger(String name, int bags) {
         super(name);
         this.bags = bags;
         this.flightNumber = flightNumber;
